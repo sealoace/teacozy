@@ -1,0 +1,151 @@
+/* Body */
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  margin: 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+a {
+  color: seashell;
+  text-decoration: underline;
+  padding: 0px 10px;
+}
+
+h2,
+h3,
+h4 {
+  margin: 10px;
+  padding: 0px;
+}
+
+.flexcontainer {
+  display: flex;
+}
+
+/* Header */
+
+header {
+  background-color: black;
+  border-bottom: 1px white solid;
+  opacity: 0.9;
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 5;
+}
+
+.logo img {
+  height: 50px;
+  padding: 0px 10px;
+}
+
+header nav {
+  padding: 0px 10px;
+}
+
+/* Mission Statement */
+
+#mission {
+  margin-top: 70px;
+  padding-top: 70px;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg');
+  height: 700px;
+  width: 1200px;
+  align-items: center;
+  justify-content: center;
+}
+
+#mission .flexcontainer {
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#mission .textbar {
+  background-color: black;
+  opacity: 1;
+  width: 100%;
+  text-align: center;
+}
+
+/* Featured Tea of the Month */
+
+#featuredtea {
+  width: 1000px;
+  height: 700px;
+  padding-top: 70px;
+  text-align: center;
+}
+
+#featuredtea .flexcontainer {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.teapic {
+  height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.berry {
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-berryblitz.jpg');
+}
+
+.teablock {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: 10px;
+}
+
+/* Locations */
+
+#locations {
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg');
+  height: 500px;
+  width: 1200px;
+  padding-top: 70px;
+}
+
+#locations .flexcontainer {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.locationblock {
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  text-align: center;
+  margin: 0px 20px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Contact */
+
+#contact {
+  height: 200px;
+}
+
+/* Footer */
+
+footer {
+  width: 100%;
+  text-align: left;
+  margin-left: 20px;
+}
